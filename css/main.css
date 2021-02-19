@@ -57,3 +57,60 @@ h4{
     background-color: #ffffff;
 
 }
+
+/* section main-Jumbotron */
+
+/* jumbotron */
+.main-jumbotron .jumbotron{
+    height: 605px;
+    background-color: gray;
+}
+
+
+/* bar-jumbotron */
+.main-jumbotron .bar-jumbotron{
+    height: 80px;
+    background-color: #afebe4;
+}
+
+
+/* section hero */
+.hero{
+    height: 1482px;
+    background-color: #f4f9fd;
+}
+
+
+/* section offer */
+.offer{
+    height: 636px;
+    background-color:#00686c;
+}
+
+/* section banner */
+.banner{
+    height: 718px;
+    background-color: #ffffff;
+}
+
+/* section main-footer */
+.main-footer{
+    height: 616px;
+    background-color: #32495b;
+}
+
+/* footer-top */
+.main-footer .footer-top{
+    height: 474px;
+}
+
+/* footer-middle */
+.main-footer .footer-middle{
+    height: 42px;
+}
+
+/* footer-bottom */
+.main-footer .footer-bottom{
+    height: 144px;
+
+}
