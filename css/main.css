@@ -53,7 +53,19 @@ h4{
 /* button */
 
 .btn{
-    
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn .button-orange{
+    background-color: #fe775a;
+    border: 0;
+    cursor: pointer;
 }
 
 /* main header */
