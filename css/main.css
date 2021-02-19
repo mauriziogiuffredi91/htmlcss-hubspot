@@ -7,4 +7,35 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+    font: 15px;
 }
+
+h1,
+h2,
+h4{
+    font-weight: 600px;
+}
+/* utilities */
+
+/* dimensioni */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.clearfix::{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+/* button */
+
