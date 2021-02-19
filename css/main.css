@@ -46,7 +46,15 @@ h4{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 /* button */
+
+.btn{
+    
+}
 
 /* main header */
 .main-header{
@@ -77,6 +85,13 @@ h4{
     padding-right: 15px;
 }
 
+.nav-left .shift{
+    margin: 0 20px;
+}
+
+.nav-left li:nth-child(3){
+    margin-right: 0;
+}
 /* bottom header */
 .main-header .bottom-header{
     height: 50%;
