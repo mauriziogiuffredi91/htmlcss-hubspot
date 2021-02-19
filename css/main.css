@@ -27,7 +27,7 @@ h4{
     height: 100%;
 }
 
-.clearfix::{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
