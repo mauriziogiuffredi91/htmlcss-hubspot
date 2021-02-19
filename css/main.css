@@ -39,3 +39,21 @@ h4{
 
 /* button */
 
+/* main header */
+.main-header{
+    height: 163px;
+    
+}
+/* top header */
+.main-header .top-header{
+    height: 50%;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+}
+
+/* bottom header */
+.main-header .bottom-header{
+    height: 50%;
+    background-color: #ffffff;
+
+}
