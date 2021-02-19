@@ -18,6 +18,14 @@ h4{
 }
 /* utilities */
 
+/* generali */
+
+.no-style{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
 /* dimensioni */
 
 .container{
