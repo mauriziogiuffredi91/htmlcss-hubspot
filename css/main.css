@@ -57,15 +57,17 @@ h4{
     border: 1px solid white;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
     color: #fff;
     border-radius: 5px;
+    padding: 15px;
 }
 
-.btn .button-orange{
+.btn.button-orange{
     background-color: #fe775a;
     border: 0;
     cursor: pointer;
+    
+    
 }
 
 /* main header */
@@ -104,6 +106,8 @@ h4{
 .nav-left li:nth-child(3){
     margin-right: 0;
 }
+
+
 /* bottom header */
 .main-header .bottom-header{
     height: 50%;
