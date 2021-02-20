@@ -20,12 +20,7 @@ h4{
 
 /* generali */
 
-.no-style{
-    text-decoration: none;
-    color: black;
-    list-style: none;
-    font-weight: bold;
-}
+
 
 /* dimensioni */
 
@@ -46,9 +41,6 @@ h4{
     float: left;
 }
 
-.float-right{
-    float: right;
-}
 
 /* button */
 
@@ -83,7 +75,17 @@ h4{
 }
 
 .top-header .nav-left{
+    width: 40%;
     padding-top: 30px;
+    
+}
+
+
+.top-header .nav-right{
+    width: 50%;
+    padding-top: 15px;
+    margin-left: 120px;
+    text-align: right;
 
 }
 .top-header .nav-left a{
@@ -99,13 +101,13 @@ h4{
     padding-right: 15px;
 }
 
-.nav-left .shift{
-    margin: 0 20px;
+.top-header li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
 }
 
-.nav-left li:nth-child(3){
-    margin-right: 0;
-}
+
 
 
 /* bottom header */
