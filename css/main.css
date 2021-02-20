@@ -143,18 +143,31 @@ h4{
 
 
 /* section main-Jumbotron */
+.main-jumbotron{
+    position:relative;
+}
 
 /* jumbotron */
 .main-jumbotron .jumbotron{
-    height: 605px;
-    background-color: gray;
+    height: 606px;
+    background-image: url('../img/jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+
 
 
 /* bar-jumbotron */
 .main-jumbotron .bar-jumbotron{
     height: 80px;
-    background-color: #afebe4;
+    background-color: #698d89;
+    /* z-index: 5; */
+    position: absolute;
+    top: 90%;
+    right: 0;
+    left: 0;
 }
 
 
