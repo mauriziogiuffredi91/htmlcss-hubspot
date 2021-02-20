@@ -158,6 +158,12 @@ h4{
 
 .jumbotron .jumbotron-box{
     text-align: left;
+    width: 55%;
+    margin-bottom: 40%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translate(0,-57%);
 }
 
 .jumbotron .jumbotron-box .jumbotron-but{
@@ -165,18 +171,29 @@ h4{
     margin: 45px 0;
 }
 
+.jumbotron-box h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+
+
 
 
 
 /* bar-jumbotron */
 .main-jumbotron .bar-jumbotron{
     height: 80px;
-    background-color: #698d89;
+    background-color: #afebe4;
     /* z-index: 5; */
     position: absolute;
     top: 90%;
     right: 0;
     left: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+
 }
 
 
