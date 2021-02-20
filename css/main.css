@@ -46,20 +46,17 @@ h4{
 
 .btn{
     display: inline-block;
-    border: 1px solid white;
     text-align: center;
     text-decoration: none;
-    color: #fff;
     border-radius: 5px;
     padding: 15px;
 }
 
 .btn.button-orange{
     background-color: #fe775a;
+    border: 1px solid white;
     border: 0;
-    cursor: pointer;
-    
-    
+    color: #fff;
 }
 
 /* main header */
@@ -81,14 +78,24 @@ h4{
 }
 
 
+
+
 .top-header .nav-right{
     width: 50%;
     padding-top: 15px;
     margin-left: 120px;
     text-align: right;
-
 }
-.top-header .nav-left a{
+
+.nav-right .login.btn{
+    background-color:#fff;
+    border: 0;
+    color: #fe775a;
+    cursor: pointer;
+    border: 1px solid #fe775a;
+}
+
+.main-header a{
     display: inline-block;
     text-decoration: none;
     margin-right: 20px;
@@ -101,10 +108,11 @@ h4{
     padding-right: 15px;
 }
 
-.top-header li{
+.main-header li{
     display: inline-block;
     list-style: none;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 
@@ -114,9 +122,23 @@ h4{
 .main-header .bottom-header{
     height: 50%;
     background-color: #ffffff;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
+
+.bottom-header .nav-right i{
+    margin-left: 10px;
+}
+
+.bottom-header .nav-right a{
+    margin-right: 10px;
+}
+
+.bottom-header .header-logo{
+    margin-right: 450px;
+}
+
+
 
 
 
