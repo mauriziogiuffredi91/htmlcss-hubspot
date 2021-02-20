@@ -49,7 +49,7 @@ h4{
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .btn.button-orange{
@@ -154,6 +154,15 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.jumbotron .jumbotron-box{
+    text-align: left;
+}
+
+.jumbotron .jumbotron-box .jumbotron-but{
+    padding: 20px;
+    margin: 45px 0;
 }
 
 
