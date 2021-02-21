@@ -67,6 +67,10 @@ a{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 
 /* button */
 
@@ -445,6 +449,54 @@ a{
     height: 718px;
     background-color: #ffffff;
 }
+
+.banner .leading .numbers{
+    margin: 40px 70px;
+    width: 22%;
+    padding-right: 75px;
+
+}
+
+.leading .numbers h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.leading .numbers p{
+    font-size: 14px;
+    
+}
+
+.style{
+    margin-top: 60px;
+    width: 40%;
+    margin-left: 230px;
+}
+
+.style .branding .brand-box img{
+    width: 90px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.bar-growing .growing-text{
+    width: 50%;
+}
+
+.bar-growing .img-growing{
+    width: 50%;
+    padding-left: 25%;
+    margin: 33px 0;
+}
+
+.bar-growing .img-growing img{
+    width: 290px;
+}
+
+
 
 /* section main-footer */
 .main-footer{
