@@ -328,6 +328,7 @@ a{
     margin-left: 60px;
     padding: 10px 30px;
     height: 653px;
+    border-radius: 2%;
 }
 
 .first img{
@@ -370,7 +371,71 @@ a{
 /* section offer */
 .offer{
     height: 636px;
-    background-color:#00686c;
+    background: linear-gradient(46deg, #1c6b70, #02ffe6);
+}
+
+.offer-bar{
+    height: 30%;
+    text-align: center;
+    color:whitesmoke;
+    margin-bottom: 20px;
+    
+}
+
+.offer-bar h2{
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.offer-bar p{
+    font-size: 13px;
+}
+
+.griglia .row{
+    border-bottom: 1px solid white;
+}
+
+.griglia .row .g-box{
+    color: white;
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid white;
+    padding-top: 40px;
+}
+
+
+
+.row .g-box img{
+    margin-bottom: 10px;
+}
+
+.row .g-box h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.griglia .row .g-box span{
+    font-size: 20px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+    
+}
+
+.row .g-box p{
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.row:last-child{
+    border-bottom: 0px;
+}
+
+.row .g-box:last-child{
+    border-right: 0px;
+    
 }
 
 
@@ -385,11 +450,13 @@ a{
 .main-footer{
     height: 616px;
     background-color: #32495b;
+    
 }
 
 /* footer-top */
 .main-footer .footer-top{
     height: 474px;
+
 }
 
 /* footer-middle */
@@ -399,6 +466,6 @@ a{
 
 /* footer-bottom */
 .main-footer .footer-bottom{
-    height: 144px;
+    height: 100px;
 
 }
