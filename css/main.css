@@ -20,6 +20,32 @@ h4{
 
 /* generali */
 
+.check{
+    color: white;
+    background-color: #fe775a;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    padding: 4px;
+
+}
+
+li{ 
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    
+}
 
 
 /* dimensioni */
@@ -95,25 +121,16 @@ h4{
     border: 1px solid #fe775a;
 }
 
-.main-header a{
-    display: inline-block;
-    text-decoration: none;
-    margin-right: 20px;
-    color: black;
-    
-}
+
+
 
 .nav-left .english{
     border-right: 2px solid #899397;
     padding-right: 15px;
 }
 
-.main-header li{
-    display: inline-block;
-    list-style: none;
-    margin-right: 15px;
-    cursor: pointer;
-}
+
+
 
 
 
@@ -270,12 +287,40 @@ h4{
 .box-book .learn{
     width: 160px;
     padding: 15px 0;
+    cursor: pointer;
 }
 .hubspot-box .box-crm{
-    display: inline-block;
     width: 70%;
+    padding: 10px 50px;
+    margin-top: 20px;
 }
 
+.hubspot-box .box-crm h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hubspot-box .box-crm p{
+    line-height: 30px;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.hubspot-box .box-crm hr{
+    margin-left: 270px;
+    position: relative;
+    bottom: 31px;
+}
+
+.hubspot-box .box-crm a{
+    font-size: 15px;
+}
+
+/* mss box */
+
+.mss-box .col{
+    width: 33%;
+}
 
 
 /* section offer */
