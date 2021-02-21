@@ -319,7 +319,51 @@ a{
 /* mss box */
 
 .mss-box .col{
-    width: 33%;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid #e6ecf1;
+    box-shadow: 5px 8px 7px 1px #e6ecf1;
+    background-color: #ffffff;
+    margin-left: 60px;
+    padding: 10px 30px;
+    height: 653px;
+}
+
+.first img{
+    width: 70px;
+}
+.second img{
+    width: 110px;
+}
+.third img{
+    width: 65px;
+}
+
+
+.mss-box .col:first-child{
+    margin-left: 0px;
+}
+
+.col img{
+    text-align: center;
+    
+    
+}
+
+.col p{
+    margin: 35px;
+    font-size: 15px;
+}
+
+.col h3{
+    margin-top: 18px;
+    font-size: 16px;
+
+}  
+
+.col ul{
+    margin: 60px 0;
 }
 
 
@@ -328,6 +372,8 @@ a{
     height: 636px;
     background-color:#00686c;
 }
+
+
 
 /* section banner */
 .banner{
