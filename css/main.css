@@ -241,22 +241,39 @@ h4{
 
 }
 
+
 /* free hubspot crm */
 
 .hero .hubspot-box{
-    border: 1px transparent #e6ecf1;
+    border: 2px solid #e6ecf1;
     background-color: #ffffff;
     height: 360px;
     border-radius: 1%;
+    padding: 20px;
+    box-shadow:  5px 8px 7px 1px #e6ecf1;
 }
 
 .hubspot-box .box-book{
+    display: inline-block;
     width: 20%;
-
+    padding: 20px;
+    margin-left: 60px;
+    text-align: center;
+    
 }
 
+.box-book img{
+    width: 145px;
+    margin: 20px;
+}
+
+.box-book .learn{
+    width: 160px;
+    padding: 15px 0;
+}
 .hubspot-box .box-crm{
-    width: 75%;
+    display: inline-block;
+    width: 70%;
 }
 
 
