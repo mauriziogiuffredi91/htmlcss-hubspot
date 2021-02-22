@@ -577,11 +577,19 @@ a{
     
 }
 
-.btn.button-white{
+.foot-col .btn.button-white{
     background-color: #dadee0;
     border: 1px solid white;
     border: 0;
     color: #32495b;
+    cursor: pointer;
+}
+
+.foot-col .social-icons i{
+    color: white;
+    margin-right: 32px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 
@@ -589,6 +597,22 @@ a{
 /* footer-middle */
 .main-footer .footer-middle{
     height: 42px;
+}
+
+.footer-middle ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.footer-middle a{
+    color: #cbd6e2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main-footer hr{
+    color: #cbd6e2;
 }
 
 /* footer-bottom */
