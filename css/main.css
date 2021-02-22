@@ -545,11 +545,12 @@ a{
 }
 
 .foot-col{
-    margin-right: 32px;
+    margin-right: 55px;
 }
 
 .foot-col:last-child{
     margin-right: 0;
+    margin-left: 55px;
 }
 
 .foot-col h5{
@@ -574,6 +575,13 @@ a{
     color: #cbd6e2;
     font-size: 15px;
     
+}
+
+.btn.button-white{
+    background-color: #dadee0;
+    border: 1px solid white;
+    border: 0;
+    color: #32495b;
 }
 
 
