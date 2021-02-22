@@ -199,17 +199,13 @@ a{
 }
 
 .jumbotron .jumbotron-box p{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 
 .jumbotron .jumbotron-box .sottotesto{
     font-size: 10px;
 }
-
-
-
-
 
 
 /* bar-jumbotron */
@@ -485,6 +481,47 @@ a{
 .bar-growing .growing-text{
     width: 50%;
 }
+
+
+
+.bar-growing .growing-text{
+    text-align: left;
+    width: 45%;
+    margin-bottom: 40%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translate(0,-35%);
+}
+
+.growing-text .btn.button-orange{
+    padding: 20px;
+    margin: 35px 0;
+}
+
+
+.growing-text h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+.growing-text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.growing-text .sottotesto{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
 
 .bar-growing .img-growing{
     width: 50%;
