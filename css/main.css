@@ -723,3 +723,26 @@ a{
     margin: 0;
 }
 
+/* help button */
+
+
+.help{
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    background-color: #425b76;
+    text-align: center;
+    left: 90%;
+    bottom: 20%;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.help a{
+    display: inline-block;
+    font-size: 45px;
+    color: white;
+    
+}
+
