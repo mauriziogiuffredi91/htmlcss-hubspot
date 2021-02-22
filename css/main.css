@@ -464,7 +464,10 @@ a{
     margin-left: 230px;
 }
 
-
+.style .branding .brand-box{
+    height: 45px;
+    
+}
 
 .style .branding .brand-box img{
     width: 100px;
