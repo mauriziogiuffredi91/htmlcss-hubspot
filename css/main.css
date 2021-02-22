@@ -331,13 +331,13 @@ a{
 }
 
 .first img{
-    width: 70px;
+    width: 105px;
 }
 .second img{
-    width: 110px;
+    width: 132px;
 }
 .third img{
-    width: 65px;
+    width: 95px;
 }
 
 
@@ -346,25 +346,28 @@ a{
 }
 
 .col img{
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 
+
 .col p{
-    margin: 35px;
+    margin: 36px;
     font-size: 15px;
 }
 
 .col h3{
     margin-top: 18px;
-    font-size: 16px;
+    font-size: 21px;
+    font-weight: bold;
 
 }  
 
 .col ul{
-    margin: 60px 0;
+    margin: 60px 20px;
+    text-align: left;
 }
+
+
 
 
 /* section offer */
