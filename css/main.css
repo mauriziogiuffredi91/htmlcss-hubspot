@@ -26,26 +26,7 @@ h5{
 
 /* generali */
 
-.dropdown{
-    display: none;
-    position: absolute;
-    background-color: #f4f9fd;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 15;
-}
 
-.dropdown .li-dropdown{
-    color: black;
-    font-size: 20px;
-    display:block;
-    margin: 10px 0;
-}
-
-.english:hover .dropdown{
-    display: block;
-}
 
 .check{
     color: white;
@@ -56,7 +37,7 @@ h5{
     vertical-align: middle;
     font-size: 10px;
     padding: 4px;
-
+    
 }
 
 li{ 
@@ -73,6 +54,7 @@ a{
     color: black;
     
 }
+
 
 
 /* dimensioni */
@@ -129,11 +111,39 @@ a{
     font-weight: lighter;
 }
 
+/* nav left */
+
 .top-header .nav-left{
     width: 40%;
     padding-top: 30px;
     
 }
+
+/* dropdown */
+.dropdown-first{
+    display: none;
+    position: absolute;
+    background-color: #f4f9fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 15;
+}
+
+.english .li-dropdown{
+    color: black;
+    font-size: 20px;
+    display:block;
+    margin: 10px 0;
+}
+
+.english:hover .dropdown-first{
+    display: block;
+}
+
+
+/* nav right */
+
 
 .top-header .nav-right{
     width: 50%;
@@ -179,8 +189,34 @@ a{
     margin-right: 450px;
 }
 
+/* dropdown */
 
 
+.dropdown-second{
+    display: none;
+    position: absolute;
+    background-color: #f4f9fd;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 15;
+    left: 87%;
+}
+
+.about-dropdown .li-dropdown{
+    color: black;
+    font-size: 20px;
+    display:block;
+    margin: 10px 0;
+}
+
+.about-dropdown:hover .dropdown-second{
+    display: block;
+}
+
+.about-dropdown .li-dropdown{
+    font-size: 18px;
+}
 
 
 /* section main-Jumbotron */
