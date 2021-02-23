@@ -137,7 +137,10 @@ a{
     margin: 10px 0;
 }
 
-.english:hover .dropdown-first{
+
+.english:hover .dropdown-first,
+.software-dropdown:hover .dropdown-second,
+.about-dropdown:hover .dropdown-fourth{
     display: block;
 }
 
@@ -196,6 +199,29 @@ a{
     display: none;
     position: absolute;
     background-color: #f4f9fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 15;
+
+}
+
+.software-dropdown .li-dropdown{
+    color: black;
+    font-size: 20px;
+    display:block;
+    margin: 10px 0;
+}
+
+
+
+/* dropdown */
+
+
+.dropdown-fourth{
+    display: none;
+    position: absolute;
+    background-color: #f4f9fd;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -205,18 +231,13 @@ a{
 
 .about-dropdown .li-dropdown{
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     display:block;
     margin: 10px 0;
 }
 
-.about-dropdown:hover .dropdown-second{
-    display: block;
-}
 
-.about-dropdown .li-dropdown{
-    font-size: 18px;
-}
+
 
 
 /* section main-Jumbotron */
