@@ -38,7 +38,8 @@ h5{
 .english:hover .dropdown-first,
 .software-dropdown:hover .dropdown-second,
 .resources-dropdown:hover .dropdown-third,
-.about-dropdown:hover .dropdown-fourth{
+.about-dropdown:hover .dropdown-fourth,
+.help-dropdown:hover .dropdown-fifth{
     display: block;
 }
 
@@ -224,7 +225,7 @@ a{
 
     
 
-.box-crm p{
+.box-longe p{
     font-size: 11px;
     margin: 10px 0;
     color: blue;
@@ -813,17 +814,40 @@ a{
     left: 90%;
     bottom: 20%;
     border-radius: 50%;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 25px;
+    padding-left: 2px;
     
 }
-.help a{
+.help i{
     display: inline-block;
     font-size: 45px;
     color: white;
     
 }
 
+/* dropdown help */
 
+.dropdown-fifth{
+    /* display: none; */
+    position: absolute;
+    bottom: 70%;
+    right: 70%;
+    z-index: 15;
+    background-color: #f4f9fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 2%;
 
+}
 
+.title{
+    width: 500px;
+    height: 60px;
+    background-color: #425b76;
+}
+
+.dropdown-fifth .chat{
+    width: 500px;
+    height: 390px;
+    background-color: #f4f9fd;
+}
