@@ -273,6 +273,13 @@ a{
     z-index: 15;
 }
 
+.dropdown-third h5{
+    font-size: 21px;
+}
+
+.dropdown-third a{
+    font-size: 15px;
+}
 /* dropdown fourth*/
 
 
@@ -286,9 +293,6 @@ a{
     z-index: 15;
     left: 87%;
 }
-
-
-
 
 
 
