@@ -210,20 +210,17 @@ a{
     height: 300px;
 }
     
-.dropdown-second .box-crm{ 
+.dropdown-second .box-longe{ 
     background-color:#eaf0f6;
     height: 100%;
     width: 20%;  
 }
 
-.box-crm .li-dropdown{
+.box-longe .li-dropdown{
     margin: 50px 10px;
 }
 
 
-
-
-    
 
 .box-longe p{
     font-size: 11px;
@@ -828,7 +825,7 @@ a{
 /* dropdown help */
 
 .dropdown-fifth{
-    /* display: none; */
+    display: none;
     position: absolute;
     bottom: 70%;
     right: 70%;
@@ -845,31 +842,43 @@ a{
 .title{
     height: 60px;
     background-color: #425b76;
+    border-radius: 5%;
 }
 
+.title h4{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+
 .dropdown-fifth .chat{
-    height: 290px;
+    height: 250px;
     background-color: #f4f9fd;
     
 }
 
 .dropdown-fifth .question{
-    background-color: #eaf0f6;
+    background-color: #aaaaaa;
     font-size: 18px;
     margin: 10% 15%;
+    border-radius: 2%;
+    height: 80px;
+    padding-top: 20px;
 }
 
-.dropdown-fifth .chat .ask{
-    border-top: 1px solid black;
-    height: 10%;
-    background-color: #1c6b70;
+.dropdown-fifth .ask{
+    height: 20%;
+    background-color: currentColor;
+    border-radius: 5%;
+    
 
 }
 
 input[type=text], select{
     width: 70%;
     padding: 20px 20px;
-    margin: 80px 0;
+    margin: 13px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
