@@ -24,10 +24,25 @@ h5{
 }
 /* utilities */
 
+
+
+/* dropdown */
+.li-dropdown{
+    color: black;
+    font-size: 20px;
+    display:block;
+    margin: 10px 0;
+}
+
+
+.english:hover .dropdown-first,
+.software-dropdown:hover .dropdown-second,
+.resources-dropdown:hover .dropdown-third,
+.about-dropdown:hover .dropdown-fourth{
+    display: block;
+}
+
 /* generali */
-
-
-
 .check{
     color: white;
     background-color: #fe775a;
@@ -130,19 +145,7 @@ a{
     z-index: 15;
 }
 
-.english .li-dropdown{
-    color: black;
-    font-size: 20px;
-    display:block;
-    margin: 10px 0;
-}
 
-
-.english:hover .dropdown-first,
-.software-dropdown:hover .dropdown-second,
-.about-dropdown:hover .dropdown-fourth{
-    display: block;
-}
 
 
 /* nav right */
@@ -206,12 +209,7 @@ a{
 
 }
 
-.software-dropdown .li-dropdown{
-    color: black;
-    font-size: 20px;
-    display:block;
-    margin: 10px 0;
-}
+
 
 
 
@@ -229,12 +227,7 @@ a{
     left: 87%;
 }
 
-.about-dropdown .li-dropdown{
-    color: black;
-    font-size: 18px;
-    display:block;
-    margin: 10px 0;
-}
+
 
 
 
