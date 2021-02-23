@@ -134,7 +134,7 @@ a{
     
 }
 
-/* dropdown */
+/* dropdown first*/
 .dropdown-first{
     display: none;
     position: absolute;
@@ -195,34 +195,34 @@ a{
     margin-right: 450px;
 }
 
-/* dropdown */
+/* dropdown second */
 
 
 .dropdown-second{
-    /* display: none; */
+    display: none;
     position: absolute;
-    background-color: #eaf0f6;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
     z-index: 15;
     width: 1200px;
     left: 3%;
     height: 300px;
-
 }
-
-.dropdown-second .box-dropdown .box-crm{
-    margin: 20px 0; 
     
-    
+.dropdown-second .box-crm{ 
+    background-color:#eaf0f6;
+    height: 100%;
+    width: 20%;  
 }
 
 .box-crm .li-dropdown{
     margin: 50px 10px;
-
-
 }
+
+
+
+
+    
 
 .box-crm p{
     font-size: 11px;
@@ -234,17 +234,22 @@ a{
 
 .box-hub{
     background-color: white;
-    width: 78%;
-    margin-left: 44px;
-    padding-left: 200px;
-    padding-top: 65px;
-    padding-bottom: 33px;
+    width: 80%;  
     border-radius: 1%;
+    height: 100%;
 }
 
+.box-hub ul{
+    padding-top: 30px;
+    padding-left: 200px;
+}
 .box-hub li{
     margin: 20px 50px;
 
+}
+
+.box-hub .shift{
+    padding-left: 9%;
 }
 
 .box-hub h5{
@@ -255,7 +260,20 @@ a{
 .box-hub p{
     font-size: 11px;
 }
-/* dropdown */
+
+/* dropdown third */
+
+.dropdown-third{
+    display: none;
+    position: absolute;
+    background-color: #f4f9fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 15;
+}
+
+/* dropdown fourth*/
 
 
 .dropdown-fourth{
@@ -801,4 +819,7 @@ a{
     color: white;
     
 }
+
+
+
 
